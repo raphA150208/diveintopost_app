@@ -59,7 +59,7 @@ $ yarn -v
 ```
 $ rails s
 
-もう一枚端末を開いて
+もう一枚端末を開いて,
 $ bin/webpack-dev-server
 ```
 
