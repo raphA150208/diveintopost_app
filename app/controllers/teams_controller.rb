@@ -15,12 +15,7 @@ class TeamsController < ApplicationController
     @team = Team.new
   end
 
-  def edit
-    if current_user != @team.owner
-      flash.now[:error] = I18n.t('cannot_edit_not_admin')
-      render :show
-    end
-  end
+  def edit; end
 
   def create
     @team = Team.new(team_params)
@@ -59,7 +54,7 @@ class TeamsController < ApplicationController
     TeamMailer.team_mail(@user).deliver
     redirect_to @team, notice: I18n.t('views.messages.owner_change')
   end
-
+  
   private
 
   def set_team
