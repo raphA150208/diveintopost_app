@@ -217,6 +217,8 @@ ja:
       delete_member: 'メンバーを削除しました。'
       delete_agenda: 'アジェンダを削除しました'
       cannot_delete_member_4_some_reason: 'なんらかの原因で、削除できませんでした。'
+      cannot_delete_not_admin: '削除権限がありません'
+      cannot_edit_not_admin: '編集権限がありません'
       failed_to_post: '投稿できませんでした...'
       create_team: 'チーム作成に成功しました！'
       failed_to_save_team: '保存に失敗しました、、'
